@@ -1,0 +1,85 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/news/news"
+		}
+	    ,{
+            "path" : "pages/forum/forum",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news-detail/news-detail1"
+        },
+		{
+		    "path" : "pages/news/news-detail/news-detail2"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail3"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail4"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail5"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail6"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail7"
+		}
+        ,{
+            "path" : "pages/about/game/game",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor":"#C21F39",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#b50e03",
+		"color":"#ccc",
+		"list":[
+			{
+				"text":"资讯",
+				"pagePath":"pages/news/news",
+				"selectedIconPath":"static/icon/news-active.png",
+				"iconPath":"static/icon/news.png"
+			},
+			{
+				"text":"论坛",
+				"pagePath":"pages/forum/forum",
+				"selectedIconPath":"static/icon/forum-active.png",
+				"iconPath":"static/icon/forum.png"
+			},
+			{
+				"text":"关于我们",
+				"pagePath":"pages/about/about",
+				"selectedIconPath":"static/icon/member-active.png",
+				"iconPath":"static/icon/member.png"
+			}
+		]
+	}
+}
